@@ -2351,6 +2351,14 @@
         {
             "name" : "emisivo",
             "uri" : "emisivo.png"
+        },
+        {
+            "name" : "TECHBL~1",
+            "uri" : "TECHBL~1.png"
+        },
+        {
+            "name" : "TECHBL~1.PNG",
+            "uri" : "TECHBL~1.PNG.png"
         }
     ],
     "materials" : [
@@ -2378,6 +2386,24 @@
                     "index" : 1
                 }
             }
+        },
+        {
+            "name" : "TECH_BLUE",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicFactor" : 0.0
+            }
+        },
+        {
+            "name" : "TECH_BLUE.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0.0
+            }
         }
     ],
     "meshes" : [
@@ -2391,7 +2417,8 @@
                         "TANGENT" : 3,
                         "TEXCOORD_0" : 4
                     },
-                    "indices" : 0
+                    "indices" : 0,
+                    "material" : 3
                 }
             ]
         },
@@ -2405,7 +2432,8 @@
                         "TANGENT" : 8,
                         "TEXCOORD_0" : 9
                     },
-                    "indices" : 5
+                    "indices" : 5,
+                    "material" : 0
                 }
             ]
         },
@@ -2493,7 +2521,8 @@
                         "TANGENT" : 38,
                         "TEXCOORD_0" : 39
                     },
-                    "indices" : 35
+                    "indices" : 35,
+                    "material" : 2
                 }
             ]
         },
@@ -2723,6 +2752,14 @@
         {
             "sampler" : 0,
             "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
         }
     ]
 }
