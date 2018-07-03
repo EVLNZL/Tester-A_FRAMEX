@@ -2114,14 +2114,11 @@
             }
         },
         {
+            "emissiveTexture" : {
+                "index" : 1
+            },
             "name" : "EMISIVO",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    1.0,
-                    0.037731677293777466,
-                    0.807420551776886,
-                    1.0
-                ],
                 "baseColorTexture" : {
                     "index" : 1
                 },
