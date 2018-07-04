@@ -817,6 +817,9 @@
                     "index" : 2
                 },
                 "metallicFactor" : 0.5,
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                },
                 "roughnessFactor" : 0.5
             }
         }
